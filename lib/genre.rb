@@ -25,7 +25,7 @@ attr_accessor :song
 
 
 
-  def artisits
+  def artists
     Song.all.map do |songs|
       songs.artist
     end
