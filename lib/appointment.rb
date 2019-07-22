@@ -6,3 +6,11 @@ class Appointment
     @date = date
     @patient = patient
     @@ll << self
+  end
+
+  def patient
+    @patient
+  end
+
+  def doctor
+  end
