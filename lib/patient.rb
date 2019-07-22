@@ -9,6 +9,10 @@ class Patient
   end
 
   def new_appointment(doctor, date)
-    appt = appointment.new(doctor, self, date)
+    appt = Appointment.new(doctor, self, date)
     appt
   end
+
+  def appointment
+    Patient.all.select |patient|
+    appointments.patient
