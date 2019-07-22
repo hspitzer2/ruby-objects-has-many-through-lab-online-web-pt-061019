@@ -1,4 +1,5 @@
 class Doctor
+  require 'pry'
 
   attr_reader :name, :patient
 
