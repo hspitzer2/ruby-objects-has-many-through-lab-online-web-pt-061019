@@ -30,7 +30,7 @@ attr_accessor :song
       songs.genre
       if songs.genre == self
         songs.artist
-
+    end
     end
   end
 end
