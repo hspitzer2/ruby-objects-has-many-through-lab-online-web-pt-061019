@@ -22,7 +22,7 @@ class Song
   # def genre
   #   self.genre # use to be @genre
   # end
-  # 
+  #
   # def artist
   #   self.artist # used to be @artist
   # end
