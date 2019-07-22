@@ -18,7 +18,7 @@ attr_accessor :song
   end
 
   def songs
-    Songs.all.select do |song|
+    Song.all.select do |songs|
       songs.artists == self
     end
   end
