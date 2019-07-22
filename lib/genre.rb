@@ -12,7 +12,7 @@ attr_accessor :song
     @artist = artist
     @@all << self
   end
-  
+
   def self.all
     @@all
   end
@@ -23,7 +23,7 @@ attr_accessor :song
     end
   end
 
-  
+
 
   def artisits
     Song.all.map do |songs|
