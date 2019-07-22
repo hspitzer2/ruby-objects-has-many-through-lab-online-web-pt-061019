@@ -18,10 +18,14 @@ class Doctor
   end
 
   def appointment
+    Appointment.all.select do |appointment|
+      appointment.doctor == self
   end
 
   def patients
-    self.appointments.patients
+    appointments.all.map do |appointments|
+      appointments.patients
+      
   end
 
   end
