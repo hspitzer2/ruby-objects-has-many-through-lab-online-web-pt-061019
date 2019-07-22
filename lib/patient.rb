@@ -21,6 +21,6 @@ class Patient
   def doctors
     patients.map do |doctor|
       patient.doctor
-    
+
   end
 end
