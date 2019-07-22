@@ -12,3 +12,13 @@ class Doctor
   def self.all
     @all
   end
+
+  def new_appointment(patient, date)
+    nu_appt = Doctor.new(patient, self, date)
+  end
+  def appointment
+  end
+  def patients
+    self.patients
+
+  end
