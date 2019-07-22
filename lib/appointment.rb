@@ -4,4 +4,3 @@ class Appointment
 
   def initialize(name)
     @@ll << self
-    
