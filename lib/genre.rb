@@ -28,6 +28,9 @@ attr_accessor :song
   def artists
     Song.all.map do |songs|
       songs.genre
+      if songs.genre == self
+        songs.artist
+        
     end
   end
 end
