@@ -15,8 +15,8 @@ class Song
     @@all
   end
 
-  def save
-    self.class.all << self
+  # def save
+  #   self.class.all << self
   end
 
   def genre
