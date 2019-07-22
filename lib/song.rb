@@ -19,11 +19,11 @@ class Song
   #   self.class.all << self
   # end
 
-  def genre
-    self.genre # use to be @genre
-  end
-
-  def artist
-    self.artist # used to be @artist
-  end
+  # def genre
+  #   self.genre # use to be @genre
+  # end
+  # 
+  # def artist
+  #   self.artist # used to be @artist
+  # end
 end
