@@ -30,4 +30,3 @@ class Doctor
   end
 
 end
-
