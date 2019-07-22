@@ -1,4 +1,6 @@
 class Artist
+  require 'pry'
+
   attr_accessor :name, :song, :genre
 
    @@all =[]
